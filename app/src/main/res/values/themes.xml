@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.NFCDemo" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Primary color (MaterialButtons background) -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">@color/blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- App surfaces -->
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <!-- Optional system UI polish -->
+        <item name="android:statusBarColor">@color/blue</item>
+
+    </style>
+
+    <!-- App theme -->
+    <style name="Theme.NFCDemo" parent="Base.Theme.NFCDemo" />
+
+</resources>
